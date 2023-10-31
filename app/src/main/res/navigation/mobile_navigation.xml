@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.lab01.ui.home.HomeFragment"
+        android:label="Sesiones"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.lab01.ui.dashboard.DashboardFragment"
+        android:label="Log"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.lab01.ui.notifications.NotificationsFragment"
+        android:label="Alertas"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_servers"
+        android:name="com.example.lab01.ui.serversApi.ServersFragment"
+        android:label="Servers"
+        tools:layout="@layout/fragment_servers" />
+    <fragment
+        android:id="@+id/navigation_databaseApi"
+        android:name="com.example.lab01.ui.databaseAPi.DatabaseApiFragment"
+        android:label="fragment_database_api"
+        tools:layout="@layout/fragment_database_api" />
+    <fragment
+        android:id="@+id/navigation_asociar"
+        android:name="com.example.lab01.AsociarFragment"
+        android:label="fragment_asociar"
+        tools:layout="@layout/fragment_asociar" />
+
+</navigation>

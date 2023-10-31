@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Sesiones" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Logs" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Alertas" />
+
+    <item
+        android:id="@+id/navigation_servers"
+        android:icon="@drawable/ic_api"
+        android:title="Servers" />
+
+    <item
+        android:id="@+id/navigation_databaseApi"
+        android:icon="@drawable/ic_bd"
+        android:title="Database" />
+
+</menu>
